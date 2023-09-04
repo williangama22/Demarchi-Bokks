@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lobster&family=Poppins:wght@300;400;500;700&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,100;1,300;1,400&display=swap" rel="stylesheet">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Josefin+Sans:wght@400;700&family=Lobster&family=Poppins:wght@300;400;500;700&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,100;1,300;1,400&display=swap" rel="stylesheet">
+  
+
+    <title>Demarchi Books</title>
+</head>
+<body>
+    <header class="cabeçalho">
+
+
+        <div class="container">
+            <input type="checkbox" id="menu" class="container_botao">
+        <label for="menu" >
+                 <span class="cabeçalho_menu-hamburguer" class="container_imagem"  id="container_invisivel"></span>
+        </label>    
+        <ul class="lista-menu">
+            <li class="lista-menu_titulo">categorias</li>
+            <li class="lista-menu_item">
+                <a class="lista-menu_link">programaçao</a>
+            </li>
+            <li class="lista-menu_item">
+                <a class="lista-menu_link">Front-End</a>
+            </li>
+            <li class="lista-menu_item">
+                <a  class="lista-menu_link">infraestrutura</a>
+            </li>
+            <li class="lista-menu_item">
+                <a  class="lista-menu_link">DESIGN & UX</a>
+            </li>
+            <li class="lista-menu_item">
+                <a  class="lista-menu_link">BUSINESS</a>
+            </li>
+
+        </ul>
+        <img src="img/Logo.svg" alt="Logo da Alurabooks" >    
+        <h1 class="container_titulo"><b class="container_titulo-negrito">Demarchi </b>books</h1> 
+    </div>
+
+
+     <ul class="opcoes">
+        <input type="checkbox" id="opcoes-menu" class="opcoes-botao">
+        <label for="opcoes-menu" class="opcoes_rotulo">
+        <li class="opcoes_item">categorias</li>
+    </label>
+    <ul class="lista-menu">
+        
+        <li class="lista-menu_item">
+            <a href="#" class="lista-menu_link">programaçao</a>
+        </li>
+        <li  class="lista-menu_item">
+            <a href="#" class="lista-menu_link">Front-End</a>
+        </li>
+        <li class="lista-menu_item">
+            <a href="#" class="lista-menu_link">infraestrutura</a>
+        </li>
+        <li class="lista-menu_item">
+            <a href="#" class="lista-menu_link">DESIGN & UX</a>
+        </li>
+        <li class="lista-menu_item">
+            <a href="#" class="lista-menu_link">BUSINESS</a>
+        </li>
+
+    </ul>
+
+
+
+
+        <li class="opcoes_item"><a href="#" class="opcoes_link">Favoritos</a></li>
+        <li class="opcoes_item"><a href="#" class="opcoes_link">Minha lsita</a></li>
+
+
+     </ul>
+    <div class="container">
+        <a href="#">
+            <img src="img/Favoritos.svg" alt="favoritos"  class="container_imagem" id="container_invisivelf">
+        </a>
+         
+        <a href="#" class="container_link">
+            <img src="img/Sacola.svg" alt="carrinho de compras "  class="container_imagem">
+            <p class="container_texto">Minha sacola</p>
+
+        </a>
+        <a href="#" class="container_link">
+            <img src="img/Usuario.svg" alt="usuario"  class="container_imagem">
+            <p class="container_texto">Meu perfil</p>
+        </a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner_titulo">Já sabe por onde começar?</h2>
+        <p class="banner_texto">Encontre em nossa estante o que precisa para seu entretenimento!</p>
+        <input type="search" class="banner_pesquisa" placeholder="  Qual será sua próxima leitura?">
+    </section>
+    <section class="carrosel">
+        <h2 class="carrosel_titulo">HQS MARVEL</h2>
+        <!-- Slider main container -->
+        <div class="carrosel_container">
+
+<div class="swiper">
+    <!-- Additional required wrapper -->
+
+     <!-- If we need pagination -->
+     <div class="swiper-pagination"></div>
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="img/captain-america-700_b7qc.jpg" 
+        alt="Capitão america 700"></div>
+      <div class="swiper-slide"><img src="img/vingadores-22173729016102.jpg" 
+        alt="vingadores 1"></div>
+      <div class="swiper-slide"><img src="img/MarvelEssenciaisGuerraCivil.jpg" 
+        alt="guerra civil"></div>
+      <div class="swiper-slide"><img src="img/venom-collection-2.jpg" 
+        alt="Venom"></div>
+      <div class="swiper-slide"><img src="img/marvels_spider-man_2_hq_capa_completa.jpg" 
+        alt="spider man 2"></div>
+      <div class="swiper-slide"><img src="img/xmen-19.jpg" 
+        alt="x-men"></div>
+
+    </div>
+   
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <div class="card">
+        <div class="card_descricao" >
+            <div class="descricao">
+                <h3 class="descricao_titulo">Talvez você também se interesse por...</h3>
+                <p class=" descricao_texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+            </div>
+            <img src="img/logo_marvel_dc.jpg" class="descricao_imagem">
+        </div>
+        <div class="card_botoes">
+            <ul class="botoes">
+                <li class="botoes_item"><img src="img/Favoritos.svg" alt="favoritar"></li>
+                <li class="botoes_item"><img src="img/Sacola.svg" alt="carinho"></li>
+            </ul>
+
+            <a href="#" class="botoes_ancora">saiba mais</a>
+</div>
+    </div>
+    </div>
+
+
+    </section>
+    <section class="carrosel2">
+        <h2 class="poki_h2">HQS DC </h2>
+
+
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+        
+             <!-- If we need pagination -->
+             <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              
+              <div class="swiper-slide"><img src="img/injustiça.webp" 
+                alt="INJUSTICE"></div>
+              <div class="swiper-slide"><img src="img/cavaleiro-das-trevas.jpg" 
+                alt="Batman o cavaleiro da trevas II"></div>
+              <div class="swiper-slide"><img src="img/crise.jpg" 
+                alt="Crise nas infintas terras"></div>
+              <div class="swiper-slide"><img src="img/flash.jfif" 
+                alt="Flash"></div>
+        
+            </div>
+           
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+
+            <div class="poki">
+                <div class="poki_descricao" >
+                    <div class="poki_descricao2">
+                      <img src="img/Estrelinhas.svg" alt="avaliação"> 
+                      <h3 class="pokih3">dev full stack</h3>
+                      <h2 class="poki_name">Willian Demarchi</h2>
+                      <p class="poki_portifolio">cursando análise e desenvolvimento de sistema,em busca de
+                        estagio em dev
+
+                      </p>
+                    </div>
+                    <img src="img/willian_gama_resized.jpg" class="imgwillian">
+                </div>
+                <div class="card_botoes">
+                    <ul class="poki_botoes">
+                        <li class="botoes_item"><img src="img/Favoritos.svg" alt="favoritar"></li>
+                        <li class="botoes_item"><img src="img/Sacola.svg" alt="carinho"></li>
+                    </ul>
+        
+                    <a href="#" class="poki_ancora">saiba mais</a>
+        
+        
+                </div>
+        
+            </div>
+    </section>
+    <section class="topicos">
+        <h2 class="topicos_titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+
+        <ul class="topicos_lista">
+            <li class="topicos_item"> <a href="#" class="topicos_link">Html/css</a>
+            </li>
+            <li class="topicos_item"> <a href="#" class="topicos_link">Javascript</a>
+            </li>
+            <li class="topicos_item"> <a href="#" class="topicos_link" >C</a>
+            </li>
+            <li class="topicos_item"> <a href="#" class="topicos_link">C++</a>
+            </li>
+            <li class="topicos_item"> <a href="#" class="topicos_link">Python</a>
+            </li>
+            <li class="topicos_item"> <a href="#" class="topicos_link">React</a>
+            </li>
+            <li class="topicos_item"> <a href="#" class="topicos_link">Nodejs</a>
+            </li>
+            <li class="topicos_item"> <a href="#" class="topicos_link">Php</a>
+            </li>
+            <li class="topicos_item"> <a href="#" class="topicos_link">Mysql</a>
+            </li>
+        </ul>
+    </section>
+    <section class="contato">
+        <h2 class="contato_titulo">Entre em contato</h2>
+        <p class="contato_formas">+55 11975389990</p>
+        <p class="contato_formas">gamawillian256@gmail.com</p>
+        <a href="www.linkedin.com/in/willian-demarchi-038a77237" class="contato_formas">linkedin</a>
+        
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+.contato{
+    background-color: var(--branco);
+    padding: 1em;
+}
+.contato_titulo{
+
+    color:var(--laranja);
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.contato_formas{
+ 
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    text-decoration: none;
+    color: var(--azul);
+}
